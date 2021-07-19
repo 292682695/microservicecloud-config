@@ -10,7 +10,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: microservice-config-guigu-client
+    name: microservice-config-client
 eureka:
   client:
     service-url:
