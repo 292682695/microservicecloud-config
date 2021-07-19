@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active:
+      - dev
+
+---
+
+spring:
+  profiles: dev
+  application:
+    name: microservice-config-guigu-dev
+
+---
+
+spring:
+  profiles: test
+  application:
+      name: microservice-config-guigu-tset
+
+
+
