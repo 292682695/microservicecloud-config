@@ -10,6 +10,15 @@ spring:
   application:
     name: microservice-config-guigu-dev
 
+eureka:
+  client:
+    service-url:
+      # 单机 defaultZone: http://localhost:7001/eureka
+      defaultZone: http://eureka7001.com:7001/eureka/
+  instance:
+    instance-id: microservice-dept3355
+    prefer-ip-address: true #显示ip
+
 ---
 
 spring:
